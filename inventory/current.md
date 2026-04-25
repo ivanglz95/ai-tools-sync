@@ -1,6 +1,6 @@
 # Installed AI Tools Inventory
 
-- Generated: 2026-04-25T08:47:07.6254947-03:00
+- Generated: 2026-04-25T08:58:54.8171150-03:00
 - Machine: MAGPC04
 - Codex home: C:\Users\Usuario\.codex
 - Claude home: C:\Users\Usuario\.claude
@@ -67,6 +67,7 @@
 ## Claude Standalone Skills
 | name | title | path |
 | --- | --- | --- |
+| argi-consultor-impositivo-contable-laboral | # ARGI — Asesor Fiscal, Contable y Laboral Argentina | C:\Users\Usuario\.claude\skills\argi-consultor-impositivo-contable-laboral\SKILL.md |
 | file-context-scout | # File Context Scout | C:\Users\Usuario\.claude\skills\file-context-scout\SKILL.md |
 | project-tool-advisor | # Project Tool Advisor | C:\Users\Usuario\.claude\skills\project-tool-advisor\SKILL.md |
 | research-source-sweeper | # Research Source Sweeper | C:\Users\Usuario\.claude\skills\research-source-sweeper\SKILL.md |

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-25T08:47:07.6254947-03:00",
+  "generatedAt": "2026-04-25T08:58:54.8171150-03:00",
   "machine": "MAGPC04",
   "user": "Usuario",
   "paths": {
@@ -314,6 +314,13 @@
       }
     ],
     "standaloneSkills": [
+      {
+        "kind": "claude-skill",
+        "name": "argi-consultor-impositivo-contable-laboral",
+        "title": "# ARGI — Asesor Fiscal, Contable y Laboral Argentina",
+        "path": "C:\\Users\\Usuario\\.claude\\skills\\argi-consultor-impositivo-contable-laboral\\SKILL.md",
+        "lastWriteTime": "2026-04-11T15:26:30.0000000-03:00"
+      },
       {
         "kind": "claude-skill",
         "name": "file-context-scout",

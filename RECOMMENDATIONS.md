@@ -4,6 +4,7 @@
 
 Shared skills installed into both Codex and Claude:
 
+- `argi-consultor-impositivo-contable-laboral`: asesor fiscal, contable y laboral argentino con verificacion obligatoria de fuentes primarias.
 - `research-source-sweeper`: broad research, source indexing, and 100-200 candidate source workflows.
 - `token-budget-manager`: general context/token saving.
 - `file-context-scout`: file and codebase exploration with minimal reads.
@@ -51,4 +52,3 @@ git add .
 git commit -m "Update shared AI tools"
 git push
 ```
-
