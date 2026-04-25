@@ -1,0 +1,43 @@
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Secrets and auth
+auth.json
+.credentials.json
+*.key
+*.pem
+*.p12
+*.pfx
+*.env
+*.env.*
+
+# Runtime state
+sessions/
+session-env/
+shell-snapshots/
+logs/
+debug/
+cache/
+.cache/
+tmp/
+.tmp/
+*.sqlite
+*.sqlite-*
+*.db
+*.db-*
+*.jsonl
+
+# Heavy dependency folders
+node_modules/
+.venv/
+venv/
+__pycache__/
+
+# Generated archives
+*.zip
+*.tar
+*.tar.gz
+

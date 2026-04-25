@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "generatedFrom": "MAGPC04 on 2026-04-25",
+  "codex": {
+    "directSkills": [
+      {
+        "name": "imagegen",
+        "source": "system"
+      },
+      {
+        "name": "openai-docs",
+        "source": "system"
+      },
+      {
+        "name": "plugin-creator",
+        "source": "system"
+      },
+      {
+        "name": "skill-creator",
+        "source": "system"
+      },
+      {
+        "name": "skill-installer",
+        "source": "system"
+      }
+    ],
+    "managedPlugins": [
+      {
+        "name": "browser-use",
+        "version": "0.1.0-alpha1",
+        "source": "openai-bundled"
+      },
+      {
+        "name": "google-calendar",
+        "version": "1.2.0",
+        "source": "openai-curated"
+      },
+      {
+        "name": "documents",
+        "version": "26.423.10653",
+        "source": "openai-primary-runtime"
+      },
+      {
+        "name": "presentations",
+        "version": "26.423.10653",
+        "source": "openai-primary-runtime"
+      },
+      {
+        "name": "spreadsheets",
+        "version": "26.423.10653",
+        "source": "openai-primary-runtime"
+      }
+    ],
+    "customAssets": {
+      "skillsPath": "codex/skills",
+      "pluginsPath": "codex/plugins"
+    }
+  },
+  "claude": {
+    "marketplaces": [
+      {
+        "name": "claude-plugins-official",
+        "source": "github",
+        "repo": "anthropics/claude-plugins-official"
+      },
+      {
+        "name": "thedotmack",
+        "source": "github",
+        "repo": "thedotmack/claude-mem",
+        "autoUpdate": true
+      }
+    ],
+    "installedPlugins": [
+      {
+        "id": "claude-mem@thedotmack",
+        "name": "claude-mem",
+        "version": "12.3.9",
+        "scope": "user",
+        "installCommand": "claude plugin install claude-mem@thedotmack"
+      }
+    ],
+    "installedPluginSkills": [
+      "do",
+      "knowledge-agent",
+      "make-plan",
+      "mem-search",
+      "smart-explore",
+      "timeline-report",
+      "version-bump"
+    ],
+    "standaloneSkills": [],
+    "customAssets": {
+      "skillsPath": "claude/skills",
+      "pluginsPath": "claude/plugins"
+    }
+  }
+}
+
