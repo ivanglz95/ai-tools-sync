@@ -1,6 +1,6 @@
-# Installed AI Tools Inventory
+﻿# Installed AI Tools Inventory
 
-- Generated: 2026-04-25T08:58:54.8171150-03:00
+- Generated: 2026-04-25T11:11:00.6809414-03:00
 - Machine: MAGPC04
 - Codex home: C:\Users\Usuario\.codex
 - Claude home: C:\Users\Usuario\.claude
@@ -23,6 +23,7 @@
 | plugin-creator | # Plugin Creator | C:\Users\Usuario\.codex\skills\.system\plugin-creator\SKILL.md |
 | skill-creator | # Skill Creator | C:\Users\Usuario\.codex\skills\.system\skill-creator\SKILL.md |
 | skill-installer | # Skill Installer | C:\Users\Usuario\.codex\skills\.system\skill-installer\SKILL.md |
+| argi-consultor-impositivo-contable-laboral | # ARGI — Asesor Fiscal, Contable y Laboral Argentina | C:\Users\Usuario\.codex\skills\argi-consultor-impositivo-contable-laboral\SKILL.md |
 | file-context-scout | # File Context Scout | C:\Users\Usuario\.codex\skills\file-context-scout\SKILL.md |
 | project-tool-advisor | # Project Tool Advisor | C:\Users\Usuario\.codex\skills\project-tool-advisor\SKILL.md |
 | research-source-sweeper | # Research Source Sweeper | C:\Users\Usuario\.codex\skills\research-source-sweeper\SKILL.md |
