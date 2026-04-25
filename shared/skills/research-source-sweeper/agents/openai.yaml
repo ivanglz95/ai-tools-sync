@@ -1,0 +1,3 @@
+interface:
+  display_name: "Research Source Sweeper"
+  short_description: "Plan broad research sweeps with compact source indexes."

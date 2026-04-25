@@ -20,6 +20,8 @@ codex/
 claude/
   skills/      # Skills propias para instalar en ~/.claude/skills
   plugins/     # Plugins propios o en desarrollo para Claude
+shared/
+  skills/      # Skills comunes que se copian a Codex y Claude
 inventory/     # Inventarios generados por scripts/collect-inventory.ps1
 manifests/     # Estado deseado y notas para reinstalar en otra maquina
 scripts/       # Herramientas de inventario y restauracion
@@ -69,9 +71,11 @@ claude plugin install claude-mem@thedotmack
 Para Codex, los plugins que aparecen como `openai-*` son plugins del entorno/app y conviene tratarlos como dependencias administradas por Codex, no como archivos a copiar entre maquinas.
 
 Ver [SYNC.md](SYNC.md) para el flujo completo entre varias PCs.
+Ver [RECOMMENDATIONS.md](RECOMMENDATIONS.md) para el stack recomendado y opciones de busqueda amplia.
 
 ## Politica de sync
 
 - Trackear: skills propias, plugins propios, templates, docs, scripts, inventarios.
+- Preferir `shared/skills` cuando una skill sirve tanto para Codex como para Claude.
 - No trackear: `auth.json`, `.credentials.json`, `sessions`, `logs`, `cache`, `node_modules`, bases sqlite, archivos temporales.
 - Para upgrades: correr `scripts/collect-inventory.ps1`, revisar el diff y commitear solo cambios esperados.

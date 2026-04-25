@@ -1,6 +1,6 @@
 # Installed AI Tools Inventory
 
-- Generated: 2026-04-25T08:11:02.1535596-03:00
+- Generated: 2026-04-25T08:47:07.6254947-03:00
 - Machine: MAGPC04
 - Codex home: C:\Users\Usuario\.codex
 - Claude home: C:\Users\Usuario\.claude
@@ -9,6 +9,7 @@
 | name | version | path |
 | --- | --- | --- |
 | browser-use | 0.1.0-alpha1 | C:\Users\Usuario\.codex\plugins\cache\openai-bundled\browser-use\0.1.0-alpha1\.codex-plugin\plugin.json |
+| github | 0.1.0 | C:\Users\Usuario\.codex\plugins\cache\openai-curated\github\421657af\.codex-plugin\plugin.json |
 | google-calendar | 1.2.0 | C:\Users\Usuario\.codex\plugins\cache\openai-curated\google-calendar\421657af\.codex-plugin\plugin.json |
 | documents | 26.423.10653 | C:\Users\Usuario\.codex\plugins\cache\openai-primary-runtime\documents\26.423.10653\.codex-plugin\plugin.json |
 | presentations | 26.423.10653 | C:\Users\Usuario\.codex\plugins\cache\openai-primary-runtime\presentations\26.423.10653\.codex-plugin\plugin.json |
@@ -22,11 +23,19 @@
 | plugin-creator | # Plugin Creator | C:\Users\Usuario\.codex\skills\.system\plugin-creator\SKILL.md |
 | skill-creator | # Skill Creator | C:\Users\Usuario\.codex\skills\.system\skill-creator\SKILL.md |
 | skill-installer | # Skill Installer | C:\Users\Usuario\.codex\skills\.system\skill-installer\SKILL.md |
+| file-context-scout | # File Context Scout | C:\Users\Usuario\.codex\skills\file-context-scout\SKILL.md |
+| project-tool-advisor | # Project Tool Advisor | C:\Users\Usuario\.codex\skills\project-tool-advisor\SKILL.md |
+| research-source-sweeper | # Research Source Sweeper | C:\Users\Usuario\.codex\skills\research-source-sweeper\SKILL.md |
+| token-budget-manager | # Token Budget Manager | C:\Users\Usuario\.codex\skills\token-budget-manager\SKILL.md |
 
 ## Codex Plugin Skills
 | name | title | path |
 | --- | --- | --- |
 | browser | # Browser | C:\Users\Usuario\.codex\plugins\cache\openai-bundled\browser-use\0.1.0-alpha1\skills\browser\SKILL.md |
+| gh-address-comments | # GitHub PR Comment Handler | C:\Users\Usuario\.codex\plugins\cache\openai-curated\github\421657af\skills\gh-address-comments\SKILL.md |
+| gh-fix-ci | # GitHub Actions CI Fix | C:\Users\Usuario\.codex\plugins\cache\openai-curated\github\421657af\skills\gh-fix-ci\SKILL.md |
+| github | # GitHub | C:\Users\Usuario\.codex\plugins\cache\openai-curated\github\421657af\skills\github\SKILL.md |
+| yeet | # GitHub Publish Changes | C:\Users\Usuario\.codex\plugins\cache\openai-curated\github\421657af\skills\yeet\SKILL.md |
 | google-calendar | # Google Calendar | C:\Users\Usuario\.codex\plugins\cache\openai-curated\google-calendar\421657af\skills\google-calendar\SKILL.md |
 | google-calendar-daily-brief | # Google Calendar Daily Brief | C:\Users\Usuario\.codex\plugins\cache\openai-curated\google-calendar\421657af\skills\google-calendar-daily-brief\SKILL.md |
 | google-calendar-free-up-time | # Google Calendar Free Up Time | C:\Users\Usuario\.codex\plugins\cache\openai-curated\google-calendar\421657af\skills\google-calendar-free-up-time\SKILL.md |
@@ -40,6 +49,9 @@
 | key | version | scope | description |
 | --- | --- | --- | --- |
 | claude-mem@thedotmack | 12.3.9 | user | Persistent memory system for Claude Code - seamlessly preserve context across sessions |
+| context7@claude-plugins-official | unknown | user | Upstash Context7 MCP server for up-to-date documentation lookup. Pull version-specific documentation and code examples directly from source repositories into your LLM context. |
+| serena@claude-plugins-official | unknown | user | Semantic code analysis MCP server providing intelligent code understanding, refactoring suggestions, and codebase navigation through language server protocol integration. |
+| github@claude-plugins-official | unknown | user | Official GitHub MCP server for repository management. Create issues, manage pull requests, review code, search repositories, and interact with GitHub's full API directly from Claude Code. |
 
 ## Claude Installed Plugin Skills
 | name | title | path |
@@ -53,7 +65,12 @@
 | version-bump | # Version Bump & Release Workflow | C:\Users\Usuario\.claude\plugins\cache\thedotmack\claude-mem\12.3.9\skills\version-bump\SKILL.md |
 
 ## Claude Standalone Skills
-_No items found._
+| name | title | path |
+| --- | --- | --- |
+| file-context-scout | # File Context Scout | C:\Users\Usuario\.claude\skills\file-context-scout\SKILL.md |
+| project-tool-advisor | # Project Tool Advisor | C:\Users\Usuario\.claude\skills\project-tool-advisor\SKILL.md |
+| research-source-sweeper | # Research Source Sweeper | C:\Users\Usuario\.claude\skills\research-source-sweeper\SKILL.md |
+| token-budget-manager | # Token Budget Manager | C:\Users\Usuario\.claude\skills\token-budget-manager\SKILL.md |
 
 ## Claude Marketplaces
 | name | source | repo | autoUpdate |

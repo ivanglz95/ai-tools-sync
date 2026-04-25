@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-25T08:11:02.1535596-03:00",
+  "generatedAt": "2026-04-25T08:47:07.6254947-03:00",
   "machine": "MAGPC04",
   "user": "Usuario",
   "paths": {
@@ -43,6 +43,34 @@
         "title": "# Skill Installer",
         "path": "C:\\Users\\Usuario\\.codex\\skills\\.system\\skill-installer\\SKILL.md",
         "lastWriteTime": "2026-04-23T16:39:18.7194351-03:00"
+      },
+      {
+        "kind": "codex-skill",
+        "name": "file-context-scout",
+        "title": "# File Context Scout",
+        "path": "C:\\Users\\Usuario\\.codex\\skills\\file-context-scout\\SKILL.md",
+        "lastWriteTime": "2026-04-25T08:42:56.1578761-03:00"
+      },
+      {
+        "kind": "codex-skill",
+        "name": "project-tool-advisor",
+        "title": "# Project Tool Advisor",
+        "path": "C:\\Users\\Usuario\\.codex\\skills\\project-tool-advisor\\SKILL.md",
+        "lastWriteTime": "2026-04-25T08:42:56.1578761-03:00"
+      },
+      {
+        "kind": "codex-skill",
+        "name": "research-source-sweeper",
+        "title": "# Research Source Sweeper",
+        "path": "C:\\Users\\Usuario\\.codex\\skills\\research-source-sweeper\\SKILL.md",
+        "lastWriteTime": "2026-04-25T08:42:56.1578761-03:00"
+      },
+      {
+        "kind": "codex-skill",
+        "name": "token-budget-manager",
+        "title": "# Token Budget Manager",
+        "path": "C:\\Users\\Usuario\\.codex\\skills\\token-budget-manager\\SKILL.md",
+        "lastWriteTime": "2026-04-25T08:42:56.1578761-03:00"
       }
     ],
     "plugins": [
@@ -52,6 +80,13 @@
         "description": "Browser / browser-use plugin\n\nAliases: @browser-use, browser-use, Browser, in-app browser.\n\nUse this plugin whenever the user asks to open, navigate, inspect, test, click, type, or screenshot a local browser target, especially localhost, 127.0.0.1, ::1, file:// URLs, or the current in-app browser tab.\n\nFor requests like \"open localhost:3000\" or \"open to localhost:4000\", navigate the in-app browser to http://localhost:3000 or http://localhost:4000.\n\nAfter significant frontend changes, suggest testing in the in-app browser unless the user already asked to open, test, or inspect it.\n\nDo not satisfy explicit @browser-use requests with macOS `open`, shell commands, Playwright, or generic web browsing unless the user approves a fallback.",
         "path": "C:\\Users\\Usuario\\.codex\\plugins\\cache\\openai-bundled\\browser-use\\0.1.0-alpha1\\.codex-plugin\\plugin.json",
         "lastWriteTime": "2026-04-23T16:39:01.2323630-03:00"
+      },
+      {
+        "name": "github",
+        "version": "0.1.0",
+        "description": "Inspect repositories, triage pull requests and issues, debug CI, and publish changes through a hybrid GitHub connector and CLI workflow.",
+        "path": "C:\\Users\\Usuario\\.codex\\plugins\\cache\\openai-curated\\github\\421657af\\.codex-plugin\\plugin.json",
+        "lastWriteTime": "2026-04-25T07:59:48.1870286-03:00"
       },
       {
         "name": "google-calendar",
@@ -89,6 +124,34 @@
         "title": "# Browser",
         "path": "C:\\Users\\Usuario\\.codex\\plugins\\cache\\openai-bundled\\browser-use\\0.1.0-alpha1\\skills\\browser\\SKILL.md",
         "lastWriteTime": "2026-04-23T16:39:01.2483385-03:00"
+      },
+      {
+        "kind": "codex-plugin-skill",
+        "name": "gh-address-comments",
+        "title": "# GitHub PR Comment Handler",
+        "path": "C:\\Users\\Usuario\\.codex\\plugins\\cache\\openai-curated\\github\\421657af\\skills\\gh-address-comments\\SKILL.md",
+        "lastWriteTime": "2026-04-25T07:59:48.1990268-03:00"
+      },
+      {
+        "kind": "codex-plugin-skill",
+        "name": "gh-fix-ci",
+        "title": "# GitHub Actions CI Fix",
+        "path": "C:\\Users\\Usuario\\.codex\\plugins\\cache\\openai-curated\\github\\421657af\\skills\\gh-fix-ci\\SKILL.md",
+        "lastWriteTime": "2026-04-25T07:59:48.2070297-03:00"
+      },
+      {
+        "kind": "codex-plugin-skill",
+        "name": "github",
+        "title": "# GitHub",
+        "path": "C:\\Users\\Usuario\\.codex\\plugins\\cache\\openai-curated\\github\\421657af\\skills\\github\\SKILL.md",
+        "lastWriteTime": "2026-04-25T07:59:48.2152238-03:00"
+      },
+      {
+        "kind": "codex-plugin-skill",
+        "name": "yeet",
+        "title": "# GitHub Publish Changes",
+        "path": "C:\\Users\\Usuario\\.codex\\plugins\\cache\\openai-curated\\github\\421657af\\skills\\yeet\\SKILL.md",
+        "lastWriteTime": "2026-04-25T07:59:48.2202262-03:00"
       },
       {
         "kind": "codex-plugin-skill",
@@ -149,18 +212,56 @@
     ]
   },
   "claude": {
-    "installedPlugins": {
-      "key": "claude-mem@thedotmack",
-      "name": "claude-mem",
-      "version": "12.3.9",
-      "scope": "user",
-      "installPath": "C:\\Users\\Usuario\\.claude\\plugins\\cache\\thedotmack\\claude-mem\\12.3.9",
-      "installedAt": "2026-04-24T23:07:47.122Z",
-      "lastUpdated": "2026-04-24T23:07:47.122Z",
-      "gitCommitSha": "8ace1d9c84e5ce455356cf852c370ea625e3b1d1",
-      "description": "Persistent memory system for Claude Code - seamlessly preserve context across sessions",
-      "manifestPath": "C:\\Users\\Usuario\\.claude\\plugins\\cache\\thedotmack\\claude-mem\\12.3.9\\.claude-plugin\\plugin.json"
-    },
+    "installedPlugins": [
+      {
+        "key": "claude-mem@thedotmack",
+        "name": "claude-mem",
+        "version": "12.3.9",
+        "scope": "user",
+        "installPath": "C:\\Users\\Usuario\\.claude\\plugins\\cache\\thedotmack\\claude-mem\\12.3.9",
+        "installedAt": "2026-04-24T23:07:47.122Z",
+        "lastUpdated": "2026-04-24T23:07:47.122Z",
+        "gitCommitSha": "8ace1d9c84e5ce455356cf852c370ea625e3b1d1",
+        "description": "Persistent memory system for Claude Code - seamlessly preserve context across sessions",
+        "manifestPath": "C:\\Users\\Usuario\\.claude\\plugins\\cache\\thedotmack\\claude-mem\\12.3.9\\.claude-plugin\\plugin.json"
+      },
+      {
+        "key": "context7@claude-plugins-official",
+        "name": "context7",
+        "version": "unknown",
+        "scope": "user",
+        "installPath": "C:\\Users\\Usuario\\.claude\\plugins\\cache\\claude-plugins-official\\context7\\unknown",
+        "installedAt": "2026-04-25T11:44:29.342Z",
+        "lastUpdated": "2026-04-25T11:44:29.342Z",
+        "gitCommitSha": null,
+        "description": "Upstash Context7 MCP server for up-to-date documentation lookup. Pull version-specific documentation and code examples directly from source repositories into your LLM context.",
+        "manifestPath": "C:\\Users\\Usuario\\.claude\\plugins\\cache\\claude-plugins-official\\context7\\unknown\\.claude-plugin\\plugin.json"
+      },
+      {
+        "key": "serena@claude-plugins-official",
+        "name": "serena",
+        "version": "unknown",
+        "scope": "user",
+        "installPath": "C:\\Users\\Usuario\\.claude\\plugins\\cache\\claude-plugins-official\\serena\\unknown",
+        "installedAt": "2026-04-25T11:44:30.656Z",
+        "lastUpdated": "2026-04-25T11:44:30.656Z",
+        "gitCommitSha": null,
+        "description": "Semantic code analysis MCP server providing intelligent code understanding, refactoring suggestions, and codebase navigation through language server protocol integration.",
+        "manifestPath": "C:\\Users\\Usuario\\.claude\\plugins\\cache\\claude-plugins-official\\serena\\unknown\\.claude-plugin\\plugin.json"
+      },
+      {
+        "key": "github@claude-plugins-official",
+        "name": "github",
+        "version": "unknown",
+        "scope": "user",
+        "installPath": "C:\\Users\\Usuario\\.claude\\plugins\\cache\\claude-plugins-official\\github\\unknown",
+        "installedAt": "2026-04-25T11:44:31.88Z",
+        "lastUpdated": "2026-04-25T11:44:31.88Z",
+        "gitCommitSha": null,
+        "description": "Official GitHub MCP server for repository management. Create issues, manage pull requests, review code, search repositories, and interact with GitHub's full API directly from Claude Code.",
+        "manifestPath": "C:\\Users\\Usuario\\.claude\\plugins\\cache\\claude-plugins-official\\github\\unknown\\.claude-plugin\\plugin.json"
+      }
+    ],
     "installedPluginSkills": [
       {
         "kind": "claude-installed-plugin-skill",
@@ -212,7 +313,36 @@
         "lastWriteTime": "2026-04-24T20:07:44.9880470-03:00"
       }
     ],
-    "standaloneSkills": null,
+    "standaloneSkills": [
+      {
+        "kind": "claude-skill",
+        "name": "file-context-scout",
+        "title": "# File Context Scout",
+        "path": "C:\\Users\\Usuario\\.claude\\skills\\file-context-scout\\SKILL.md",
+        "lastWriteTime": "2026-04-25T08:42:56.1578761-03:00"
+      },
+      {
+        "kind": "claude-skill",
+        "name": "project-tool-advisor",
+        "title": "# Project Tool Advisor",
+        "path": "C:\\Users\\Usuario\\.claude\\skills\\project-tool-advisor\\SKILL.md",
+        "lastWriteTime": "2026-04-25T08:42:56.1578761-03:00"
+      },
+      {
+        "kind": "claude-skill",
+        "name": "research-source-sweeper",
+        "title": "# Research Source Sweeper",
+        "path": "C:\\Users\\Usuario\\.claude\\skills\\research-source-sweeper\\SKILL.md",
+        "lastWriteTime": "2026-04-25T08:42:56.1578761-03:00"
+      },
+      {
+        "kind": "claude-skill",
+        "name": "token-budget-manager",
+        "title": "# Token Budget Manager",
+        "path": "C:\\Users\\Usuario\\.claude\\skills\\token-budget-manager\\SKILL.md",
+        "lastWriteTime": "2026-04-25T08:42:56.1578761-03:00"
+      }
+    ],
     "marketplaces": [
       {
         "name": "claude-plugins-official",

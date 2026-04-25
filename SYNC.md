@@ -52,11 +52,12 @@ git push
 Antes de cambiar skills o plugins:
 
 ```powershell
-git pull
+.\scripts\sync-preflight.ps1
 ```
 
 Despues de crear o editar una skill propia, guardala dentro del repo:
 
+- Comun a Codex y Claude: `shared/skills/<nombre>/SKILL.md`
 - Codex: `codex/skills/<nombre>/SKILL.md`
 - Claude: `claude/skills/<nombre>/SKILL.md`
 
@@ -106,4 +107,3 @@ claude plugin install claude-mem@thedotmack
 ```
 
 El manifiesto guarda la version instalada para auditoria. Si el marketplace publica una version nueva, el CLI puede instalar o actualizar a la version disponible segun sus reglas.
-

@@ -1,0 +1,3 @@
+interface:
+  display_name: "Project Tool Advisor"
+  short_description: "Recommend skills and plugins before project work starts."

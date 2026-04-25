@@ -39,11 +39,21 @@ function Copy-Children {
     New-Item -ItemType Directory -Force -Path $Destination | Out-Null
     foreach ($child in $children) {
         $target = Join-Path $Destination $child.Name
-        Copy-Item -Recurse -Force -LiteralPath $child.FullName -Destination $target
+        if ($child.PSIsContainer) {
+            New-Item -ItemType Directory -Force -Path $target | Out-Null
+            foreach ($item in Get-ChildItem -Force -LiteralPath $child.FullName) {
+                Copy-Item -Recurse -Force -LiteralPath $item.FullName -Destination $target
+            }
+        }
+        else {
+            Copy-Item -Force -LiteralPath $child.FullName -Destination $target
+        }
         Write-Host "  Copied: $($child.Name)"
     }
 }
 
+Copy-Children -Source (Join-Path $RepoRoot "shared\skills") -Destination (Join-Path $CodexHome "skills") -Label "Shared skills -> Codex"
+Copy-Children -Source (Join-Path $RepoRoot "shared\skills") -Destination (Join-Path $ClaudeHome "skills") -Label "Shared skills -> Claude"
 Copy-Children -Source (Join-Path $RepoRoot "codex\skills") -Destination (Join-Path $CodexHome "skills") -Label "Codex skills"
 Copy-Children -Source (Join-Path $RepoRoot "claude\skills") -Destination (Join-Path $ClaudeHome "skills") -Label "Claude skills"
 

@@ -1,0 +1,3 @@
+interface:
+  display_name: "Token Budget Manager"
+  short_description: "Keep long tasks accurate while reducing context use."

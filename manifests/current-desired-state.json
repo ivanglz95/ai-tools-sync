@@ -77,6 +77,27 @@
         "version": "12.3.9",
         "scope": "user",
         "installCommand": "claude plugin install claude-mem@thedotmack"
+      },
+      {
+        "id": "context7@claude-plugins-official",
+        "name": "context7",
+        "version": "unknown",
+        "scope": "user",
+        "installCommand": "claude plugin install context7"
+      },
+      {
+        "id": "serena@claude-plugins-official",
+        "name": "serena",
+        "version": "unknown",
+        "scope": "user",
+        "installCommand": "claude plugin install serena"
+      },
+      {
+        "id": "github@claude-plugins-official",
+        "name": "github",
+        "version": "unknown",
+        "scope": "user",
+        "installCommand": "claude plugin install github"
       }
     ],
     "installedPluginSkills": [
@@ -93,6 +114,25 @@
       "skillsPath": "claude/skills",
       "pluginsPath": "claude/plugins"
     }
+  },
+  "optionalSearchProviders": {
+    "note": "Use one of these when broad web research needs large result sets such as 100-200 candidate sources. They usually require API keys and should not store secrets in this repo.",
+    "candidates": [
+      {
+        "name": "Exa MCP",
+        "repo": "exa-labs/exa-mcp-server",
+        "useFor": "web search, code search, company research, high-volume source discovery"
+      },
+      {
+        "name": "Tavily MCP",
+        "repo": "tavily-ai/tavily-mcp",
+        "useFor": "real-time search, extract, map, crawl"
+      },
+      {
+        "name": "Brave Search MCP",
+        "repo": "brave/brave-search-mcp-server",
+        "useFor": "general web/news/image/video search through Brave Search API"
+      }
+    ]
   }
 }
-

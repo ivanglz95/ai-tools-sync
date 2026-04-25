@@ -1,0 +1,3 @@
+interface:
+  display_name: "File Context Scout"
+  short_description: "Find only the file context needed for the next edit."
