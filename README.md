@@ -52,6 +52,12 @@ Para copiar skills propias al home de cada herramienta:
 .\scripts\restore-local-assets.ps1 -Apply
 ```
 
+Para instalar marketplaces y plugins de Claude declarados en el manifiesto:
+
+```powershell
+.\scripts\install-claude-from-manifest.ps1 -Apply
+```
+
 El script no reinstala caches ni paquetes de marketplaces automaticamente. Para Claude, usa el inventario como guia:
 
 ```powershell
@@ -61,6 +67,8 @@ claude plugin install claude-mem@thedotmack
 ```
 
 Para Codex, los plugins que aparecen como `openai-*` son plugins del entorno/app y conviene tratarlos como dependencias administradas por Codex, no como archivos a copiar entre maquinas.
+
+Ver [SYNC.md](SYNC.md) para el flujo completo entre varias PCs.
 
 ## Politica de sync
 
