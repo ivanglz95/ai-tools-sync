@@ -1,3 +1,15 @@
 {
-  "mcpServers": {}
+  "mcpServers": {
+    "infoleg-mcp": {
+      "command": "bun",
+      "args": [
+        "run",
+        "start"
+      ],
+      "cwd": "mcp/infoleg-mcp",
+      "env": {
+        "INFOLEG_API_BASE_URL": "https://servicios.infoleg.gob.ar/infoleg-internet/api/"
+      }
+    }
+  }
 }
