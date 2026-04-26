@@ -9,9 +9,10 @@ Refactorizacion del skill monolitico `argi-consultor-impositivo-contable-laboral
 - **Fase 2 COMPLETA:** MCP InfoLEG (servidor TypeScript que expone buscar_norma / obtener_norma / buscar_por_numero).
 - **Fase 3 COMPLETA:** MCP ARCA (servidor TypeScript que expone consultar_contribuyente / obtener_vencimientos / verificar_constancia).
 
-## Documentacion clave (leer antes de cualquier tarea)
-- Spec completo: `docs/superpowers/specs/2026-04-26-argi-plugin-design.md`
-- Plan Fase 1 (completo): `docs/superpowers/plans/2026-04-26-argi-plugin-phase1.md`
+## Documentacion clave
+- Leer primero: `docs/00_INDICE_OPERATIVO.md` (punto de entrada corto para ahorrar contexto).
+- Spec completo, solo si hace falta arquitectura: `docs/superpowers/specs/2026-04-26-argi-plugin-design.md`
+- Plan Fase 1, solo si hace falta historia de implementacion: `docs/superpowers/plans/2026-04-26-argi-plugin-phase1.md`
 
 ## Estructura del repo
 ```
@@ -40,6 +41,7 @@ La letra de disco se detecta con `scripts/discover-drive.ps1` → genera `.argi-
 - Sin framework de aplicacion
 
 ## Reglas de trabajo
+- Indexar primero, leer solo archivos puntuales y evitar cargar specs largas salvo necesidad.
 - No modificar la estructura de carpetas en Drive (solo agregar fichas en `94_FICHAS_TEMATICAS/`)
 - Commits frecuentes con mensajes `feat(argi): ...`
 - Cada MCP va en su propia carpeta `argi-plugin/mcp/{nombre}-mcp/`
