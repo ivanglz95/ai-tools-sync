@@ -1,37 +1,58 @@
 ﻿# Installed AI Tools Inventory
 
-- Generated: 2026-04-25T21:11:51.2778581-03:00
+- Generated: 2026-04-25T22:39:48.4306091-03:00
 - Machine: USER
 - Codex home: C:\Users\ryrco\.codex
 - Claude home: C:\Users\ryrco\.claude
 
 ## Codex Plugins
-_No items found._
+| name | version | path |
+| --- | --- | --- |
+| browser-use | 0.1.0-alpha1 | C:\Users\ryrco\.codex\plugins\cache\openai-bundled\browser-use\0.1.0-alpha1\.codex-plugin\plugin.json |
+| github | 0.1.0 | C:\Users\ryrco\.codex\plugins\cache\openai-curated\github\421657af\.codex-plugin\plugin.json |
+| documents | 26.423.10653 | C:\Users\ryrco\.codex\plugins\cache\openai-primary-runtime\documents\26.423.10653\.codex-plugin\plugin.json |
+| presentations | 26.423.10653 | C:\Users\ryrco\.codex\plugins\cache\openai-primary-runtime\presentations\26.423.10653\.codex-plugin\plugin.json |
+| spreadsheets | 26.423.10653 | C:\Users\ryrco\.codex\plugins\cache\openai-primary-runtime\spreadsheets\26.423.10653\.codex-plugin\plugin.json |
 
 ## Codex Direct Skills
 | name | title | path |
 | --- | --- | --- |
+| imagegen | # Image Generation Skill | C:\Users\ryrco\.codex\skills\.system\imagegen\SKILL.md |
+| openai-docs | # OpenAI Docs | C:\Users\ryrco\.codex\skills\.system\openai-docs\SKILL.md |
+| plugin-creator | # Plugin Creator | C:\Users\ryrco\.codex\skills\.system\plugin-creator\SKILL.md |
+| skill-creator | # Skill Creator | C:\Users\ryrco\.codex\skills\.system\skill-creator\SKILL.md |
+| skill-installer | # Skill Installer | C:\Users\ryrco\.codex\skills\.system\skill-installer\SKILL.md |
 | argi-consultor-impositivo-contable-laboral | # ARGI — Asesor Fiscal, Contable y Laboral Argentina | C:\Users\ryrco\.codex\skills\argi-consultor-impositivo-contable-laboral\SKILL.md |
+| context-clarifier | # Context Clarifier | C:\Users\ryrco\.codex\skills\context-clarifier\SKILL.md |
 | file-context-scout | # File Context Scout | C:\Users\ryrco\.codex\skills\file-context-scout\SKILL.md |
 | project-tool-advisor | # Project Tool Advisor | C:\Users\ryrco\.codex\skills\project-tool-advisor\SKILL.md |
 | research-source-sweeper | # Research Source Sweeper | C:\Users\ryrco\.codex\skills\research-source-sweeper\SKILL.md |
 | token-budget-manager | # Token Budget Manager | C:\Users\ryrco\.codex\skills\token-budget-manager\SKILL.md |
 
 ## Codex Plugin Skills
-_No items found._
+| name | title | path |
+| --- | --- | --- |
+| browser | # Browser | C:\Users\ryrco\.codex\plugins\cache\openai-bundled\browser-use\0.1.0-alpha1\skills\browser\SKILL.md |
+| gh-address-comments | # GitHub PR Comment Handler | C:\Users\ryrco\.codex\plugins\cache\openai-curated\github\421657af\skills\gh-address-comments\SKILL.md |
+| gh-fix-ci | # GitHub Actions CI Fix | C:\Users\ryrco\.codex\plugins\cache\openai-curated\github\421657af\skills\gh-fix-ci\SKILL.md |
+| github | # GitHub | C:\Users\ryrco\.codex\plugins\cache\openai-curated\github\421657af\skills\github\SKILL.md |
+| yeet | # GitHub Publish Changes | C:\Users\ryrco\.codex\plugins\cache\openai-curated\github\421657af\skills\yeet\SKILL.md |
+| documents | # Documents Skill (Read • Create • Edit • Redline • Comment) | C:\Users\ryrco\.codex\plugins\cache\openai-primary-runtime\documents\26.423.10653\skills\documents\SKILL.md |
+| presentations | # Presentations | C:\Users\ryrco\.codex\plugins\cache\openai-primary-runtime\presentations\26.423.10653\skills\presentations\SKILL.md |
+| spreadsheets | # Spreadsheets skill | C:\Users\ryrco\.codex\plugins\cache\openai-primary-runtime\spreadsheets\26.423.10653\skills\spreadsheets\SKILL.md |
 
 ## Claude Installed Plugins
 | key | version | scope | description |
 | --- | --- | --- | --- |
-| everything-claude-code@everything-claude-code | 1.10.0 | user | Battle-tested Claude Code plugin for engineering teams â€” 38 agents, 156 skills, 72 legacy command shims, production-ready hooks, and selective install workflows evolved through continuous real-world use |
-| prompts.chat@prompts.chat | 1.0.0 | user | Access thousands of AI prompts and skills directly in your AI coding assistant. Search prompts, discover skills, save your own, and improve prompts with AI. |
-| superpowers@superpowers-dev | 5.0.7 | user | Core skills library for Claude Code: TDD, debugging, collaboration patterns, and proven techniques |
-| prompt-optimizer@daymade-skills | 1.1.0 | user |  |
-| marketing-skills@marketingskills | 9125d8216e38 | user |  |
-| claude-mem@thedotmack | 12.4.3 | user | Persistent memory system for Claude Code - seamlessly preserve context across sessions |
-| context7@claude-plugins-official | unknown | user | Upstash Context7 MCP server for up-to-date documentation lookup. Pull version-specific documentation and code examples directly from source repositories into your LLM context. |
-| serena@claude-plugins-official | unknown | user | Semantic code analysis MCP server providing intelligent code understanding, refactoring suggestions, and codebase navigation through language server protocol integration. |
-| github@claude-plugins-official | unknown | user | Official GitHub MCP server for repository management. Create issues, manage pull requests, review code, search repositories, and interact with GitHub's full API directly from Claude Code. |
+| everything-claude-code@everything-claude-code | 1.10.0 | project | Battle-tested Claude Code plugin for engineering teams â€” 38 agents, 156 skills, 72 legacy command shims, production-ready hooks, and selective install workflows evolved through continuous real-world use |
+| prompts.chat@prompts.chat | 1.0.0 | project | Access thousands of AI prompts and skills directly in your AI coding assistant. Search prompts, discover skills, save your own, and improve prompts with AI. |
+| superpowers@superpowers-dev | 5.0.7 | project | Core skills library for Claude Code: TDD, debugging, collaboration patterns, and proven techniques |
+| prompt-optimizer@daymade-skills | 1.1.0 | project |  |
+| marketing-skills@marketingskills | 9125d8216e38 | project |  |
+| claude-mem@thedotmack | 12.4.3 | project | Persistent memory system for Claude Code - seamlessly preserve context across sessions |
+| context7@claude-plugins-official | unknown | project | Upstash Context7 MCP server for up-to-date documentation lookup. Pull version-specific documentation and code examples directly from source repositories into your LLM context. |
+| serena@claude-plugins-official | unknown | project | Semantic code analysis MCP server providing intelligent code understanding, refactoring suggestions, and codebase navigation through language server protocol integration. |
+| github@claude-plugins-official | unknown | project | Official GitHub MCP server for repository management. Create issues, manage pull requests, review code, search repositories, and interact with GitHub's full API directly from Claude Code. |
 
 ## Claude Installed Plugin Skills
 | name | title | path |
@@ -89,6 +110,7 @@ _No items found._
 ## Claude Standalone Skills
 | name | title | path |
 | --- | --- | --- |
+| context-clarifier | # Context Clarifier | C:\Users\ryrco\.claude\skills\context-clarifier\SKILL.md |
 | file-context-scout | # File Context Scout | C:\Users\ryrco\.claude\skills\file-context-scout\SKILL.md |
 | project-tool-advisor | # Project Tool Advisor | C:\Users\ryrco\.claude\skills\project-tool-advisor\SKILL.md |
 | research-source-sweeper | # Research Source Sweeper | C:\Users\ryrco\.claude\skills\research-source-sweeper\SKILL.md |

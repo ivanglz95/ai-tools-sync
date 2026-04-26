@@ -1,0 +1,4 @@
+interface:
+  display_name: "Context Clarifier"
+  short_description: "Clarify intent while saving context."
+  default_prompt: "Use $context-clarifier to ask only necessary questions and keep context compact."

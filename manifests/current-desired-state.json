@@ -8,7 +8,13 @@
       "file-context-scout",
       "project-tool-advisor",
       "research-source-sweeper",
+      "context-clarifier",
       "token-budget-manager"
+    ],
+    "templatesPath": "shared/templates",
+    "templates": [
+      "AGENTS.md",
+      "CLAUDE.md"
     ]
   },
   "codex": {
@@ -120,29 +126,8 @@
       "version-bump"
     ],
     "standaloneSkills": [],
-    "customSkills": [
-      {
-        "name": "notebooklm-mcp",
-        "skillsPath": "claude/skills",
-        "description": "Integra Claude con Google NotebookLM via MCP (notebooklm-mcp-cli)",
-        "installRequires": [
-          "uv tool install notebooklm-mcp-cli",
-          "nlm login",
-          "nlm setup add claude-code"
-        ]
-      }
-    ],
-    "mcpServers": [
-      {
-        "name": "notebooklm-mcp",
-        "package": "notebooklm-mcp-cli",
-        "version": "0.5.30",
-        "installer": "uv",
-        "setupCommand": "nlm setup add claude-code",
-        "authCommand": "nlm login",
-        "scope": "user"
-      }
-    ],
+    "customSkills": [],
+    "mcpServers": [],
     "customAssets": {
       "skillsPath": "claude/skills",
       "pluginsPath": "claude/plugins"

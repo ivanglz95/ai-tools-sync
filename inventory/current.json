@@ -1,56 +1,187 @@
 ﻿{
-    "generatedAt":  "2026-04-25T21:11:51.2778581-03:00",
+    "generatedAt":  "2026-04-25T22:39:48.4306091-03:00",
     "machine":  "USER",
     "user":  "USER",
     "paths":  {
                   "codexHome":  "C:\\Users\\ryrco\\.codex",
                   "claudeHome":  "C:\\Users\\ryrco\\.claude",
-                  "outputDir":  "C:\\ai-tools-sync\\inventory"
+                  "outputDir":  "C:\\Users\\ryrco\\Documents\\Codex\\2026-04-25\\clona-y-sigue-los-pasos-https\\ai-tools-sync\\inventory"
               },
     "codex":  {
                   "directSkills":  [
                                        {
                                            "kind":  "codex-skill",
+                                           "name":  "imagegen",
+                                           "title":  "# Image Generation Skill",
+                                           "path":  "C:\\Users\\ryrco\\.codex\\skills\\.system\\imagegen\\SKILL.md",
+                                           "lastWriteTime":  "2026-04-25T21:11:53.1706395-03:00"
+                                       },
+                                       {
+                                           "kind":  "codex-skill",
+                                           "name":  "openai-docs",
+                                           "title":  "# OpenAI Docs",
+                                           "path":  "C:\\Users\\ryrco\\.codex\\skills\\.system\\openai-docs\\SKILL.md",
+                                           "lastWriteTime":  "2026-04-25T21:11:53.1826854-03:00"
+                                       },
+                                       {
+                                           "kind":  "codex-skill",
+                                           "name":  "plugin-creator",
+                                           "title":  "# Plugin Creator",
+                                           "path":  "C:\\Users\\ryrco\\.codex\\skills\\.system\\plugin-creator\\SKILL.md",
+                                           "lastWriteTime":  "2026-04-25T21:11:53.2004853-03:00"
+                                       },
+                                       {
+                                           "kind":  "codex-skill",
+                                           "name":  "skill-creator",
+                                           "title":  "# Skill Creator",
+                                           "path":  "C:\\Users\\ryrco\\.codex\\skills\\.system\\skill-creator\\SKILL.md",
+                                           "lastWriteTime":  "2026-04-25T21:11:53.2082540-03:00"
+                                       },
+                                       {
+                                           "kind":  "codex-skill",
+                                           "name":  "skill-installer",
+                                           "title":  "# Skill Installer",
+                                           "path":  "C:\\Users\\ryrco\\.codex\\skills\\.system\\skill-installer\\SKILL.md",
+                                           "lastWriteTime":  "2026-04-25T21:11:53.2200414-03:00"
+                                       },
+                                       {
+                                           "kind":  "codex-skill",
                                            "name":  "argi-consultor-impositivo-contable-laboral",
                                            "title":  "# ARGI — Asesor Fiscal, Contable y Laboral Argentina",
                                            "path":  "C:\\Users\\ryrco\\.codex\\skills\\argi-consultor-impositivo-contable-laboral\\SKILL.md",
-                                           "lastWriteTime":  "2026-04-25T20:57:47.0761320-03:00"
+                                           "lastWriteTime":  "2026-04-25T22:02:57.2895370-03:00"
+                                       },
+                                       {
+                                           "kind":  "codex-skill",
+                                           "name":  "context-clarifier",
+                                           "title":  "# Context Clarifier",
+                                           "path":  "C:\\Users\\ryrco\\.codex\\skills\\context-clarifier\\SKILL.md",
+                                           "lastWriteTime":  "2026-04-25T22:39:18.1274344-03:00"
                                        },
                                        {
                                            "kind":  "codex-skill",
                                            "name":  "file-context-scout",
                                            "title":  "# File Context Scout",
                                            "path":  "C:\\Users\\ryrco\\.codex\\skills\\file-context-scout\\SKILL.md",
-                                           "lastWriteTime":  "2026-04-25T20:57:47.0792848-03:00"
+                                           "lastWriteTime":  "2026-04-25T22:02:57.2912849-03:00"
                                        },
                                        {
                                            "kind":  "codex-skill",
                                            "name":  "project-tool-advisor",
                                            "title":  "# Project Tool Advisor",
                                            "path":  "C:\\Users\\ryrco\\.codex\\skills\\project-tool-advisor\\SKILL.md",
-                                           "lastWriteTime":  "2026-04-25T20:57:47.0832813-03:00"
+                                           "lastWriteTime":  "2026-04-25T22:39:18.1264332-03:00"
                                        },
                                        {
                                            "kind":  "codex-skill",
                                            "name":  "research-source-sweeper",
                                            "title":  "# Research Source Sweeper",
                                            "path":  "C:\\Users\\ryrco\\.codex\\skills\\research-source-sweeper\\SKILL.md",
-                                           "lastWriteTime":  "2026-04-25T20:57:47.0872839-03:00"
+                                           "lastWriteTime":  "2026-04-25T22:02:57.2973072-03:00"
                                        },
                                        {
                                            "kind":  "codex-skill",
                                            "name":  "token-budget-manager",
                                            "title":  "# Token Budget Manager",
                                            "path":  "C:\\Users\\ryrco\\.codex\\skills\\token-budget-manager\\SKILL.md",
-                                           "lastWriteTime":  "2026-04-25T20:57:47.0892843-03:00"
+                                           "lastWriteTime":  "2026-04-25T22:34:24.2286499-03:00"
                                        }
                                    ],
-                  "plugins":  {
-
-                              },
-                  "pluginSkills":  {
-
-                                   }
+                  "plugins":  [
+                                  {
+                                      "name":  "browser-use",
+                                      "version":  "0.1.0-alpha1",
+                                      "description":  "Browser / browser-use plugin\n\nAliases: @browser-use, browser-use, Browser, in-app browser.\n\nUse this plugin whenever the user asks to open, navigate, inspect, test, click, type, or screenshot a local browser target, especially localhost, 127.0.0.1, ::1, file:// URLs, or the current in-app browser tab.\n\nFor requests like \"open localhost:3000\" or \"open to localhost:4000\", navigate the in-app browser to http://localhost:3000 or http://localhost:4000.\n\nAfter significant frontend changes, suggest testing in the in-app browser unless the user already asked to open, test, or inspect it.\n\nDo not satisfy explicit @browser-use requests with macOS `open`, shell commands, Playwright, or generic web browsing unless the user approves a fallback.",
+                                      "path":  "C:\\Users\\ryrco\\.codex\\plugins\\cache\\openai-bundled\\browser-use\\0.1.0-alpha1\\.codex-plugin\\plugin.json",
+                                      "lastWriteTime":  "2026-04-25T21:58:23.6593747-03:00"
+                                  },
+                                  {
+                                      "name":  "github",
+                                      "version":  "0.1.0",
+                                      "description":  "Inspect repositories, triage pull requests and issues, debug CI, and publish changes through a hybrid GitHub connector and CLI workflow.",
+                                      "path":  "C:\\Users\\ryrco\\.codex\\plugins\\cache\\openai-curated\\github\\421657af\\.codex-plugin\\plugin.json",
+                                      "lastWriteTime":  "2026-04-25T21:12:00.6799464-03:00"
+                                  },
+                                  {
+                                      "name":  "documents",
+                                      "version":  "26.423.10653",
+                                      "description":  "Create and edit document artifacts in Codex.",
+                                      "path":  "C:\\Users\\ryrco\\.codex\\plugins\\cache\\openai-primary-runtime\\documents\\26.423.10653\\.codex-plugin\\plugin.json",
+                                      "lastWriteTime":  "2026-04-23T12:17:05.0000000-03:00"
+                                  },
+                                  {
+                                      "name":  "presentations",
+                                      "version":  "26.423.10653",
+                                      "description":  "Create, edit, render, verify, and export presentation slide decks. Use when Codex needs to build or modify a deck, slidedeck, presentation deck, slide deck, slides, PowerPoint, PPT, PPTX, .ppt, or .pptx file.",
+                                      "path":  "C:\\Users\\ryrco\\.codex\\plugins\\cache\\openai-primary-runtime\\presentations\\26.423.10653\\.codex-plugin\\plugin.json",
+                                      "lastWriteTime":  "2026-04-23T12:17:05.0000000-03:00"
+                                  },
+                                  {
+                                      "name":  "spreadsheets",
+                                      "version":  "26.423.10653",
+                                      "description":  "Create, edit, analyze, visualize, render, and export spreadsheets in Codex.",
+                                      "path":  "C:\\Users\\ryrco\\.codex\\plugins\\cache\\openai-primary-runtime\\spreadsheets\\26.423.10653\\.codex-plugin\\plugin.json",
+                                      "lastWriteTime":  "2026-04-23T12:17:05.0000000-03:00"
+                                  }
+                              ],
+                  "pluginSkills":  [
+                                       {
+                                           "kind":  "codex-plugin-skill",
+                                           "name":  "browser",
+                                           "title":  "# Browser",
+                                           "path":  "C:\\Users\\ryrco\\.codex\\plugins\\cache\\openai-bundled\\browser-use\\0.1.0-alpha1\\skills\\browser\\SKILL.md",
+                                           "lastWriteTime":  "2026-04-25T21:58:23.6771941-03:00"
+                                       },
+                                       {
+                                           "kind":  "codex-plugin-skill",
+                                           "name":  "gh-address-comments",
+                                           "title":  "# GitHub PR Comment Handler",
+                                           "path":  "C:\\Users\\ryrco\\.codex\\plugins\\cache\\openai-curated\\github\\421657af\\skills\\gh-address-comments\\SKILL.md",
+                                           "lastWriteTime":  "2026-04-25T21:12:00.7009340-03:00"
+                                       },
+                                       {
+                                           "kind":  "codex-plugin-skill",
+                                           "name":  "gh-fix-ci",
+                                           "title":  "# GitHub Actions CI Fix",
+                                           "path":  "C:\\Users\\ryrco\\.codex\\plugins\\cache\\openai-curated\\github\\421657af\\skills\\gh-fix-ci\\SKILL.md",
+                                           "lastWriteTime":  "2026-04-25T21:12:00.7198202-03:00"
+                                       },
+                                       {
+                                           "kind":  "codex-plugin-skill",
+                                           "name":  "github",
+                                           "title":  "# GitHub",
+                                           "path":  "C:\\Users\\ryrco\\.codex\\plugins\\cache\\openai-curated\\github\\421657af\\skills\\github\\SKILL.md",
+                                           "lastWriteTime":  "2026-04-25T21:12:00.7351496-03:00"
+                                       },
+                                       {
+                                           "kind":  "codex-plugin-skill",
+                                           "name":  "yeet",
+                                           "title":  "# GitHub Publish Changes",
+                                           "path":  "C:\\Users\\ryrco\\.codex\\plugins\\cache\\openai-curated\\github\\421657af\\skills\\yeet\\SKILL.md",
+                                           "lastWriteTime":  "2026-04-25T21:12:00.7785924-03:00"
+                                       },
+                                       {
+                                           "kind":  "codex-plugin-skill",
+                                           "name":  "documents",
+                                           "title":  "# Documents Skill (Read • Create • Edit • Redline • Comment)",
+                                           "path":  "C:\\Users\\ryrco\\.codex\\plugins\\cache\\openai-primary-runtime\\documents\\26.423.10653\\skills\\documents\\SKILL.md",
+                                           "lastWriteTime":  "2026-04-23T11:59:29.0000000-03:00"
+                                       },
+                                       {
+                                           "kind":  "codex-plugin-skill",
+                                           "name":  "presentations",
+                                           "title":  "# Presentations",
+                                           "path":  "C:\\Users\\ryrco\\.codex\\plugins\\cache\\openai-primary-runtime\\presentations\\26.423.10653\\skills\\presentations\\SKILL.md",
+                                           "lastWriteTime":  "2026-04-23T11:59:29.0000000-03:00"
+                                       },
+                                       {
+                                           "kind":  "codex-plugin-skill",
+                                           "name":  "spreadsheets",
+                                           "title":  "# Spreadsheets skill",
+                                           "path":  "C:\\Users\\ryrco\\.codex\\plugins\\cache\\openai-primary-runtime\\spreadsheets\\26.423.10653\\skills\\spreadsheets\\SKILL.md",
+                                           "lastWriteTime":  "2026-04-23T11:59:29.0000000-03:00"
+                                       }
+                                   ]
               },
     "claude":  {
                    "installedPlugins":  [
@@ -58,10 +189,10 @@
                                                 "key":  "everything-claude-code@everything-claude-code",
                                                 "name":  "everything-claude-code",
                                                 "version":  "1.10.0",
-                                                "scope":  "user",
+                                                "scope":  "project",
                                                 "installPath":  "C:\\Users\\ryrco\\.claude\\plugins\\cache\\everything-claude-code\\everything-claude-code\\1.10.0",
                                                 "installedAt":  "2026-04-18T19:44:52.003Z",
-                                                "lastUpdated":  "2026-04-26T00:09:41.389Z",
+                                                "lastUpdated":  "2026-04-26T00:37:52.240Z",
                                                 "gitCommitSha":  "1a50145d39c0fa415311da62e7a018edd4e6d976",
                                                 "description":  "Battle-tested Claude Code plugin for engineering teams â€” 38 agents, 156 skills, 72 legacy command shims, production-ready hooks, and selective install workflows evolved through continuous real-world use",
                                                 "manifestPath":  "C:\\Users\\ryrco\\.claude\\plugins\\cache\\everything-claude-code\\everything-claude-code\\1.10.0\\.claude-plugin\\plugin.json"
@@ -70,10 +201,10 @@
                                                 "key":  "prompts.chat@prompts.chat",
                                                 "name":  "prompts.chat",
                                                 "version":  "1.0.0",
-                                                "scope":  "user",
+                                                "scope":  "project",
                                                 "installPath":  "C:\\Users\\ryrco\\.claude\\plugins\\cache\\prompts-chat\\prompts-chat\\1.0.0",
                                                 "installedAt":  "2026-04-18T19:44:52.003Z",
-                                                "lastUpdated":  "2026-04-26T00:09:41.389Z",
+                                                "lastUpdated":  "2026-04-26T00:37:52.240Z",
                                                 "gitCommitSha":  "191973a9887e8ce2d02180daeafdcf37df0b21ff",
                                                 "description":  "Access thousands of AI prompts and skills directly in your AI coding assistant. Search prompts, discover skills, save your own, and improve prompts with AI.",
                                                 "manifestPath":  "C:\\Users\\ryrco\\.claude\\plugins\\cache\\prompts-chat\\prompts-chat\\1.0.0\\.claude-plugin\\plugin.json"
@@ -82,10 +213,10 @@
                                                 "key":  "superpowers@superpowers-dev",
                                                 "name":  "superpowers",
                                                 "version":  "5.0.7",
-                                                "scope":  "user",
+                                                "scope":  "project",
                                                 "installPath":  "C:\\Users\\ryrco\\.claude\\plugins\\cache\\superpowers-dev\\superpowers\\5.0.7",
                                                 "installedAt":  "2026-04-18T19:44:52.003Z",
-                                                "lastUpdated":  "2026-04-26T00:09:41.389Z",
+                                                "lastUpdated":  "2026-04-26T00:37:52.240Z",
                                                 "gitCommitSha":  "b55764852ac78870e65c6565fb585b6cd8b3c5c9",
                                                 "description":  "Core skills library for Claude Code: TDD, debugging, collaboration patterns, and proven techniques",
                                                 "manifestPath":  "C:\\Users\\ryrco\\.claude\\plugins\\cache\\superpowers-dev\\superpowers\\5.0.7\\.claude-plugin\\plugin.json"
@@ -94,10 +225,10 @@
                                                 "key":  "prompt-optimizer@daymade-skills",
                                                 "name":  null,
                                                 "version":  "1.1.0",
-                                                "scope":  "user",
+                                                "scope":  "project",
                                                 "installPath":  "C:\\Users\\ryrco\\.claude\\plugins\\cache\\daymade-skills\\prompt-optimizer\\1.1.0",
                                                 "installedAt":  "2026-04-18T19:44:52.003Z",
-                                                "lastUpdated":  "2026-04-26T00:09:41.389Z",
+                                                "lastUpdated":  "2026-04-26T00:37:52.240Z",
                                                 "gitCommitSha":  "59f9a20709ce3be8c7eba0a078ae8fd1d74e595c",
                                                 "description":  null,
                                                 "manifestPath":  "C:\\Users\\ryrco\\.claude\\plugins\\cache\\daymade-skills\\prompt-optimizer\\1.1.0\\.claude-plugin\\plugin.json"
@@ -106,10 +237,10 @@
                                                 "key":  "marketing-skills@marketingskills",
                                                 "name":  null,
                                                 "version":  "9125d8216e38",
-                                                "scope":  "user",
+                                                "scope":  "project",
                                                 "installPath":  "C:\\Users\\ryrco\\.claude\\plugins\\cache\\marketingskills\\marketing-skills\\9125d8216e38",
                                                 "installedAt":  "2026-04-18T19:44:52.003Z",
-                                                "lastUpdated":  "2026-04-26T00:09:41.389Z",
+                                                "lastUpdated":  "2026-04-26T00:37:52.240Z",
                                                 "gitCommitSha":  "9125d8216e38945bcca5e712287cec06e9e96523",
                                                 "description":  null,
                                                 "manifestPath":  "C:\\Users\\ryrco\\.claude\\plugins\\cache\\marketingskills\\marketing-skills\\9125d8216e38\\.claude-plugin\\plugin.json"
@@ -118,10 +249,10 @@
                                                 "key":  "claude-mem@thedotmack",
                                                 "name":  "claude-mem",
                                                 "version":  "12.4.3",
-                                                "scope":  "user",
+                                                "scope":  "project",
                                                 "installPath":  "C:\\Users\\ryrco\\.claude\\plugins\\cache\\thedotmack\\claude-mem\\12.4.3",
                                                 "installedAt":  "2026-04-26T00:05:11.958Z",
-                                                "lastUpdated":  "2026-04-26T00:05:11.958Z",
+                                                "lastUpdated":  "2026-04-26T00:37:52.240Z",
                                                 "gitCommitSha":  "298f5463d966a5d3f2393a89394e5ef9e725fb0f",
                                                 "description":  "Persistent memory system for Claude Code - seamlessly preserve context across sessions",
                                                 "manifestPath":  "C:\\Users\\ryrco\\.claude\\plugins\\cache\\thedotmack\\claude-mem\\12.4.3\\.claude-plugin\\plugin.json"
@@ -130,10 +261,10 @@
                                                 "key":  "context7@claude-plugins-official",
                                                 "name":  "context7",
                                                 "version":  "unknown",
-                                                "scope":  "user",
+                                                "scope":  "project",
                                                 "installPath":  "C:\\Users\\ryrco\\.claude\\plugins\\cache\\claude-plugins-official\\context7\\unknown",
                                                 "installedAt":  "2026-04-26T00:05:13.382Z",
-                                                "lastUpdated":  "2026-04-26T00:05:13.382Z",
+                                                "lastUpdated":  "2026-04-26T00:37:52.240Z",
                                                 "gitCommitSha":  null,
                                                 "description":  "Upstash Context7 MCP server for up-to-date documentation lookup. Pull version-specific documentation and code examples directly from source repositories into your LLM context.",
                                                 "manifestPath":  "C:\\Users\\ryrco\\.claude\\plugins\\cache\\claude-plugins-official\\context7\\unknown\\.claude-plugin\\plugin.json"
@@ -142,10 +273,10 @@
                                                 "key":  "serena@claude-plugins-official",
                                                 "name":  "serena",
                                                 "version":  "unknown",
-                                                "scope":  "user",
+                                                "scope":  "project",
                                                 "installPath":  "C:\\Users\\ryrco\\.claude\\plugins\\cache\\claude-plugins-official\\serena\\unknown",
                                                 "installedAt":  "2026-04-26T00:05:14.577Z",
-                                                "lastUpdated":  "2026-04-26T00:05:14.577Z",
+                                                "lastUpdated":  "2026-04-26T00:37:52.240Z",
                                                 "gitCommitSha":  null,
                                                 "description":  "Semantic code analysis MCP server providing intelligent code understanding, refactoring suggestions, and codebase navigation through language server protocol integration.",
                                                 "manifestPath":  "C:\\Users\\ryrco\\.claude\\plugins\\cache\\claude-plugins-official\\serena\\unknown\\.claude-plugin\\plugin.json"
@@ -154,10 +285,10 @@
                                                 "key":  "github@claude-plugins-official",
                                                 "name":  "github",
                                                 "version":  "unknown",
-                                                "scope":  "user",
+                                                "scope":  "project",
                                                 "installPath":  "C:\\Users\\ryrco\\.claude\\plugins\\cache\\claude-plugins-official\\github\\unknown",
                                                 "installedAt":  "2026-04-26T00:05:16.182Z",
-                                                "lastUpdated":  "2026-04-26T00:05:16.182Z",
+                                                "lastUpdated":  "2026-04-26T00:37:52.240Z",
                                                 "gitCommitSha":  null,
                                                 "description":  "Official GitHub MCP server for repository management. Create issues, manage pull requests, review code, search repositories, and interact with GitHub\u0027s full API directly from Claude Code.",
                                                 "manifestPath":  "C:\\Users\\ryrco\\.claude\\plugins\\cache\\claude-plugins-official\\github\\unknown\\.claude-plugin\\plugin.json"
@@ -511,31 +642,38 @@
                    "standaloneSkills":  [
                                             {
                                                 "kind":  "claude-skill",
+                                                "name":  "context-clarifier",
+                                                "title":  "# Context Clarifier",
+                                                "path":  "C:\\Users\\ryrco\\.claude\\skills\\context-clarifier\\SKILL.md",
+                                                "lastWriteTime":  "2026-04-25T22:39:18.1274344-03:00"
+                                            },
+                                            {
+                                                "kind":  "claude-skill",
                                                 "name":  "file-context-scout",
                                                 "title":  "# File Context Scout",
                                                 "path":  "C:\\Users\\ryrco\\.claude\\skills\\file-context-scout\\SKILL.md",
-                                                "lastWriteTime":  "2026-04-25T20:57:47.0792848-03:00"
+                                                "lastWriteTime":  "2026-04-25T22:02:57.2912849-03:00"
                                             },
                                             {
                                                 "kind":  "claude-skill",
                                                 "name":  "project-tool-advisor",
                                                 "title":  "# Project Tool Advisor",
                                                 "path":  "C:\\Users\\ryrco\\.claude\\skills\\project-tool-advisor\\SKILL.md",
-                                                "lastWriteTime":  "2026-04-25T20:57:47.0832813-03:00"
+                                                "lastWriteTime":  "2026-04-25T22:39:18.1264332-03:00"
                                             },
                                             {
                                                 "kind":  "claude-skill",
                                                 "name":  "research-source-sweeper",
                                                 "title":  "# Research Source Sweeper",
                                                 "path":  "C:\\Users\\ryrco\\.claude\\skills\\research-source-sweeper\\SKILL.md",
-                                                "lastWriteTime":  "2026-04-25T20:57:47.0872839-03:00"
+                                                "lastWriteTime":  "2026-04-25T22:02:57.2973072-03:00"
                                             },
                                             {
                                                 "kind":  "claude-skill",
                                                 "name":  "token-budget-manager",
                                                 "title":  "# Token Budget Manager",
                                                 "path":  "C:\\Users\\ryrco\\.claude\\skills\\token-budget-manager\\SKILL.md",
-                                                "lastWriteTime":  "2026-04-25T20:57:47.0892843-03:00"
+                                                "lastWriteTime":  "2026-04-25T22:34:24.2286499-03:00"
                                             }
                                         ],
                    "marketplaces":  [

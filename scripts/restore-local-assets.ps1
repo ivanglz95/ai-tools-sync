@@ -52,10 +52,38 @@ function Copy-Children {
     }
 }
 
+function Copy-FileIfExists {
+    param(
+        [string]$Source,
+        [string]$Destination,
+        [string]$Label
+    )
+
+    if (-not (Test-Path -LiteralPath $Source)) {
+        Write-Host "Skipping ${Label}: source does not exist ($Source)"
+        return
+    }
+
+    Write-Host "$Label"
+    Write-Host "  From: $Source"
+    Write-Host "  To:   $Destination"
+
+    if (-not $Apply) {
+        Write-Host "  Would copy global instruction file"
+        return
+    }
+
+    New-Item -ItemType Directory -Force -Path (Split-Path $Destination -Parent) | Out-Null
+    Copy-Item -Force -LiteralPath $Source -Destination $Destination
+    Write-Host "  Copied"
+}
+
 Copy-Children -Source (Join-Path $RepoRoot "shared\skills") -Destination (Join-Path $CodexHome "skills") -Label "Shared skills -> Codex"
 Copy-Children -Source (Join-Path $RepoRoot "shared\skills") -Destination (Join-Path $ClaudeHome "skills") -Label "Shared skills -> Claude"
 Copy-Children -Source (Join-Path $RepoRoot "codex\skills") -Destination (Join-Path $CodexHome "skills") -Label "Codex skills"
 Copy-Children -Source (Join-Path $RepoRoot "claude\skills") -Destination (Join-Path $ClaudeHome "skills") -Label "Claude skills"
+Copy-FileIfExists -Source (Join-Path $RepoRoot "shared\templates\AGENTS.md") -Destination (Join-Path $CodexHome "AGENTS.md") -Label "Global AGENTS.md -> Codex"
+Copy-FileIfExists -Source (Join-Path $RepoRoot "shared\templates\CLAUDE.md") -Destination (Join-Path $ClaudeHome "CLAUDE.md") -Label "Global CLAUDE.md -> Claude"
 
 Write-Host ""
 Write-Host "Plugin restoration is intentionally manual."
