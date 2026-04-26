@@ -17,6 +17,7 @@ Objetivo: orientar futuras sesiones con lectura minima. Leer este archivo primer
 - Historia de Fase 1: `docs/superpowers/plans/2026-04-26-argi-plugin-phase1.md`.
 - Metadata del plugin: `argi-plugin/.claude-plugin/plugin.json`.
 - Uso e instalacion: `argi-plugin/README.md`.
+- Instalacion multi-PC: `argi-plugin/INSTALL.md`.
 - Servidores MCP habilitados: `argi-plugin/.mcp.json`.
 - Core compartido: `argi-plugin/core/argi-core.md`.
 - Skills: `argi-plugin/skills/{impositivo,contable,laboral,societario}/SKILL.md`.
@@ -57,6 +58,12 @@ bun test
 ```
 
 Despues de verificar, no dejar `node_modules/` versionado.
+
+Instalar o actualizar en otra PC:
+
+```powershell
+powershell -NoProfile -ExecutionPolicy Bypass -File .\argi-plugin\scripts\install-claude-argi.ps1
+```
 
 ## Cierre v4.0.0
 

@@ -4,9 +4,10 @@
       "command": "bun",
       "args": [
         "run",
+        "--cwd",
+        "mcp/infoleg-mcp",
         "start"
       ],
-      "cwd": "mcp/infoleg-mcp",
       "env": {
         "INFOLEG_API_BASE_URL": "https://servicios.infoleg.gob.ar/infoleg-internet/api/"
       }
@@ -15,9 +16,10 @@
       "command": "bun",
       "args": [
         "run",
+        "--cwd",
+        "mcp/arca-mcp",
         "start"
       ],
-      "cwd": "mcp/arca-mcp",
       "env": {
         "ARCA_TIMEOUT_MS": "15000"
       }

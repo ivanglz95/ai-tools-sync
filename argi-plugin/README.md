@@ -12,6 +12,16 @@ Plugin modular para consultas fiscales, contables, laborales y societarias de Ar
 
 ## Instalacion local
 
+Instalacion recomendada en cualquier PC Windows:
+
+```powershell
+powershell -NoProfile -ExecutionPolicy Bypass -File .\argi-plugin\scripts\install-claude-argi.ps1
+```
+
+Guia completa: `argi-plugin/INSTALL.md`.
+
+Verificacion manual, si se necesita aislar un MCP:
+
 Desde `argi-plugin/mcp/infoleg-mcp`:
 
 ```powershell
