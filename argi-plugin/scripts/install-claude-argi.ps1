@@ -109,6 +109,11 @@ if ($ArcaPadronTxtPath) {
 if (-not $SkipMcp) {
     $infolegRoot = Join-Path $pluginRoot "mcp\infoleg-mcp"
     $arcaRoot = Join-Path $pluginRoot "mcp\arca-mcp"
+    $repoRoot = Resolve-Path -LiteralPath (Join-Path $pluginRoot "..")
+
+    & claude plugin marketplace add $repoRoot *> $null
+    & claude plugin install argi@ai-tools-sync-local *> $null
+    Write-Host "Plugin Claude instalado: argi@ai-tools-sync-local"
 
     & claude mcp remove infoleg-mcp -s user *> $null
     & claude mcp remove arca-mcp -s user *> $null
@@ -136,6 +141,7 @@ if (-not $SkipVerify) {
     }
 
     if (-not $SkipMcp) {
+        Run-Checked -FilePath "claude" -Arguments @("plugin", "list") -WorkingDirectory $pluginRoot
         Run-Checked -FilePath "claude" -Arguments @("mcp", "get", "infoleg-mcp") -WorkingDirectory $pluginRoot
         Run-Checked -FilePath "claude" -Arguments @("mcp", "get", "arca-mcp") -WorkingDirectory $pluginRoot
     }

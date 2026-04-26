@@ -1,3 +1,8 @@
+---
+name: argi-impositivo
+description: Consultor fiscal argentino para IVA, Ganancias, Monotributo, IIBB, ARCA/AFIP, Formosa, planificacion y defensa fiscal.
+---
+
 # ARGI Impositivo v4.0
 **Descripcion:** Consultor fiscal argentino — IVA, Ganancias, Monotributo, IIBB, Formosa provincial/municipal, Regimen Penal Tributario, planificacion y defensa fiscal.
 

@@ -1,0 +1,31 @@
+{
+  "name": "ai-tools-sync-local",
+  "owner": {
+    "name": "BG Impositivo",
+    "email": "bg.impositivo@gmail.com"
+  },
+  "metadata": {
+    "description": "Marketplace local para plugins personales sincronizados.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "argi",
+      "source": "./argi-plugin",
+      "description": "Asesor fiscal, contable, laboral y societario argentino con MCPs InfoLEG y ARCA.",
+      "version": "4.0.0",
+      "author": {
+        "name": "BG Impositivo",
+        "email": "bg.impositivo@gmail.com"
+      },
+      "repository": "https://github.com/ivanglz95/ai-tools-sync",
+      "keywords": [
+        "argentina",
+        "impuestos",
+        "contabilidad",
+        "laboral",
+        "societario"
+      ]
+    }
+  ]
+}

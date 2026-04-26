@@ -18,6 +18,7 @@ Objetivo: orientar futuras sesiones con lectura minima. Leer este archivo primer
 - Metadata del plugin: `argi-plugin/.claude-plugin/plugin.json`.
 - Uso e instalacion: `argi-plugin/README.md`.
 - Instalacion multi-PC: `argi-plugin/INSTALL.md`.
+- Marketplace local Claude Code: `.claude-plugin/marketplace.json`.
 - Servidores MCP habilitados: `argi-plugin/.mcp.json`.
 - Core compartido: `argi-plugin/core/argi-core.md`.
 - Skills: `argi-plugin/skills/{impositivo,contable,laboral,societario}/SKILL.md`.

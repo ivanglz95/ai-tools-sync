@@ -1,3 +1,8 @@
+---
+name: argi-laboral
+description: Consultor laboral argentino para sueldos, F.931, SIPA, CCT, LCT, cargas sociales, ART y vencimientos ARCA.
+---
+
 # ARGI Laboral v4.0
 **Descripcion:** Consultor laboral y previsional argentino — liquidacion de sueldos, F.931, CCT, LCT, seguridad social, ART, obras sociales.
 

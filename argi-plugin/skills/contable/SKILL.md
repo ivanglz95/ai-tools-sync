@@ -1,3 +1,8 @@
+---
+name: argi-contable
+description: Consultor contable argentino para normas FACPCE, RT 54/55/57/60, estados contables, auditoria y sindicatura.
+---
+
 # ARGI Contable v4.0
 **Descripcion:** Consultor contable argentino — RT FACPCE, estados contables, RT 54 NUA, auditoria, sindicatura, ajuste por inflacion.
 

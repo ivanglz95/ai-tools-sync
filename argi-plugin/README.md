@@ -9,6 +9,7 @@ Plugin modular para consultas fiscales, contables, laborales y societarias de Ar
 - MCP InfoLEG: `mcp/infoleg-mcp`.
 - MCP ARCA: `mcp/arca-mcp`.
 - Configuracion MCP: `.mcp.json`.
+- Plugin visible en Claude Code: `argi@ai-tools-sync-local`.
 
 ## Instalacion local
 

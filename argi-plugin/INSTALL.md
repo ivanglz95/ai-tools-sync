@@ -30,6 +30,8 @@ El instalador:
 - Copia las 4 skills a `%USERPROFILE%\.claude\skills\argi-*`.
 - Copia `core/argi-core.md` dentro de cada skill.
 - Ejecuta `bun install --frozen-lockfile` en ambos MCPs.
+- Agrega el marketplace local `ai-tools-sync-local`.
+- Instala el plugin visible `argi@ai-tools-sync-local`.
 - Registra `infoleg-mcp` y `arca-mcp` con `claude mcp add -s user`.
 - Intenta detectar Google Drive Desktop y guarda `ARGI_BASE` como variable de usuario.
 - Corre `typecheck`, `bun test` y `claude mcp get`.
@@ -37,11 +39,13 @@ El instalador:
 ## 3. Verificar
 
 ```powershell
+claude plugin list
 claude mcp get infoleg-mcp
 claude mcp get arca-mcp
 ```
 
-Ambos deben mostrar `Status: Connected` o el indicador de conexion correcta de Claude Code.
+`claude plugin list` debe mostrar `argi@ai-tools-sync-local` enabled.
+Ambos MCPs deben mostrar `Status: Connected` o el indicador de conexion correcta de Claude Code.
 
 ## Opcional: padron ARCA local
 

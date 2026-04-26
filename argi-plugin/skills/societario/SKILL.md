@@ -1,3 +1,8 @@
+---
+name: argi-societario
+description: Consultor societario argentino para SRL, SA, SAS, Ley 19.550, balances, ajuste por inflacion, concursos y peritajes.
+---
+
 # ARGI Societario v4.0
 **Descripcion:** Consultor societario argentino — SRL, SA, SAS, asociaciones civiles, balances, ajuste por inflacion, derecho concursal, peritajes.
 

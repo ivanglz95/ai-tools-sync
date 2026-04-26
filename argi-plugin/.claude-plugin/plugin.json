@@ -1,29 +1,19 @@
 {
   "name": "argi",
   "version": "4.0.0",
-  "description": "Asesor fiscal, contable, laboral y societario argentino — plugin modular con base de normativas local y MCPs (Fase 2-3)",
-  "author": "bg.impositivo@gmail.com",
-  "skills": [
-    {
-      "name": "impositivo",
-      "path": "skills/impositivo",
-      "description": "Consultas IVA, Ganancias, Monotributo, IIBB, Formosa provincial/municipal, planificacion y defensa fiscal"
-    },
-    {
-      "name": "contable",
-      "path": "skills/contable",
-      "description": "Normas contables FACPCE, RT 54/55/57/60, estados contables, auditoria, sindicatura"
-    },
-    {
-      "name": "laboral",
-      "path": "skills/laboral",
-      "description": "Liquidacion de sueldos, F.931, CCT, LCT, seguridad social, ART"
-    },
-    {
-      "name": "societario",
-      "path": "skills/societario",
-      "description": "SRL, SA, SAS, balances, ajuste por inflacion, derecho concursal, peritajes"
-    }
-  ],
-  "mcpServers": ["infoleg-mcp", "arca-mcp"]
+  "description": "Asesor fiscal, contable, laboral y societario argentino. Plugin modular con skills ARGI, base documental local y MCPs InfoLEG/ARCA.",
+  "author": {
+    "name": "BG Impositivo",
+    "email": "bg.impositivo@gmail.com"
+  },
+  "repository": "https://github.com/ivanglz95/ai-tools-sync",
+  "keywords": [
+    "argentina",
+    "impuestos",
+    "contabilidad",
+    "laboral",
+    "societario",
+    "infoleg",
+    "arca"
+  ]
 }
