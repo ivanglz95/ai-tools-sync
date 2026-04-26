@@ -1,0 +1,5 @@
+# Generado por discover-drive.ps1 — depende del equipo local
+.argi-path
+
+# Memoria progresiva — privado del estudio, no versionar
+skills/*/memory/*.md
