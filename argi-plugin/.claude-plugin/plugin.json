@@ -25,5 +25,5 @@
       "description": "SRL, SA, SAS, balances, ajuste por inflacion, derecho concursal, peritajes"
     }
   ],
-  "mcpServers": ["infoleg-mcp"]
+  "mcpServers": ["infoleg-mcp", "arca-mcp"]
 }

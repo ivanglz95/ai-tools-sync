@@ -6,8 +6,8 @@ Refactorizacion del skill monolitico `argi-consultor-impositivo-contable-laboral
 
 ## Estado actual
 - **Fase 1 COMPLETA:** plugin base con 4 skills, nucleo compartido, discover-drive.ps1, memoria progresiva.
-- **Fase 2 PENDIENTE:** MCP InfoLEG (servidor TypeScript que expone buscar_norma / obtener_norma / buscar_por_numero).
-- **Fase 3 PENDIENTE:** MCP ARCA (servidor TypeScript que expone consultar_contribuyente / obtener_vencimientos / verificar_constancia).
+- **Fase 2 COMPLETA:** MCP InfoLEG (servidor TypeScript que expone buscar_norma / obtener_norma / buscar_por_numero).
+- **Fase 3 COMPLETA:** MCP ARCA (servidor TypeScript que expone consultar_contribuyente / obtener_vencimientos / verificar_constancia).
 
 ## Documentacion clave (leer antes de cualquier tarea)
 - Spec completo: `docs/superpowers/specs/2026-04-26-argi-plugin-design.md`
