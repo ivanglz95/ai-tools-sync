@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "start": "bun src/server.ts",
+    "test": "bun test",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {

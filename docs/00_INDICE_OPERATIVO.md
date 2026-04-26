@@ -16,6 +16,7 @@ Objetivo: orientar futuras sesiones con lectura minima. Leer este archivo primer
 - Diseno completo: `docs/superpowers/specs/2026-04-26-argi-plugin-design.md`.
 - Historia de Fase 1: `docs/superpowers/plans/2026-04-26-argi-plugin-phase1.md`.
 - Metadata del plugin: `argi-plugin/.claude-plugin/plugin.json`.
+- Uso e instalacion: `argi-plugin/README.md`.
 - Servidores MCP habilitados: `argi-plugin/.mcp.json`.
 - Core compartido: `argi-plugin/core/argi-core.md`.
 - Skills: `argi-plugin/skills/{impositivo,contable,laboral,societario}/SKILL.md`.
@@ -43,6 +44,7 @@ Verificar InfoLEG:
 cd argi-plugin/mcp/infoleg-mcp
 bun install --frozen-lockfile
 bun run typecheck
+bun test
 ```
 
 Verificar ARCA:
@@ -51,12 +53,14 @@ Verificar ARCA:
 cd argi-plugin/mcp/arca-mcp
 bun install --frozen-lockfile
 bun run typecheck
+bun test
 ```
 
 Despues de verificar, no dejar `node_modules/` versionado.
 
-## Pendientes reales
+## Cierre v4.0.0
 
-- Revision final integral del plugin ARGI v4.0.0.
-- Opcional: agregar pruebas automatizadas pequenas para los clientes MCP.
-- Opcional: documentar instalacion/uso de `ARCA_PADRON_TXT_PATH` para consulta local de padron publico.
+- Plugin completo para el alcance definido: Fase 1, Fase 2 InfoLEG y Fase 3 ARCA.
+- Pruebas minimas disponibles en ambos MCPs con `bun test`.
+- Uso de `ARCA_PADRON_TXT_PATH` documentado en `argi-plugin/README.md`.
+- Backlog opcional futuro: ampliar tests sin red, agregar Fase 4 si se decide integrar WSAA/certificados.
